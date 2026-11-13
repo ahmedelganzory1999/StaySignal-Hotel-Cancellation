@@ -60,18 +60,3 @@ The browser normally opens at `http://localhost:8501`. This address is only a lo
 - Multiple rows appear identical but lack unique reservation identifiers; these rows were retained and explicitly documented in the notebook.
 
 **Source:** Hotel Booking Demand dataset, António, de Almeida & Nunes (2019). Analyses and illustrations derive from the supplied student notebook.
-
-## Course submission requirements
-
-- [x] Full notebook: `Hotel Booking - Final Project.ipynb`
-- [x] Original dataset: `hotel_bookings.csv`
-- [x] Cleaned dataset for the app: `data/hotel_bookings_cleaned.csv`
-- [x] Streamlit code: `app.py`, `pages/`, `utils/`
-- [x] Saved model and fitted preprocessing transformers in the same pipeline: `model/hotel_cancellation_pipeline.joblib`
-- [x] Model settings and evaluation metadata: `model/hotel_cancellation_config.json`
-- [x] `requirements.txt` and `verify_model.py`
-- [ ] Add the real Streamlit deployment URL here after publishing.
-- [ ] Add a recording of the project explanation to the course submission; provide a video link here if you wish.
-- [ ] Link the official main Epsilon AI GitHub repository as required by the instructor (verify the exact URL first).
-
-Note: The saved `.joblib` Pipeline contains the fitted preprocessing steps and the XGBoost model, so a separate transformer file is not necessary for the app to work.
