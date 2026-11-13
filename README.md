@@ -39,16 +39,9 @@ python verify_model.py
 streamlit run app.py
 ```
 
-The browser normally opens at `http://localhost:8501`. This address is only a local development address, **not** a public deployment URL.
+The browser normally opens at `http://localhost:8501`.
 
-## Deploy on Streamlit Community Cloud
 
-1. Create a GitHub repository and upload the **contents of this folder to the repository root**, not the ZIP file. Do not include a `.venv` directory.
-2. Visit https://share.streamlit.io and connect the repository.
-3. Set **Main file path** to `app.py` and use a compatible Python version.
-4. Deploy, then open the hosted URL and test **Cancellation Predictor**, all navigation pages and loaded model/data.
-5. Add the **actual hosted URL** to the final course submission. This package does not contain a hosted URL.
-6. Mention/credit your course's main **Epsilon AI** GitHub repository as required by your instructor. Verify the official repository address before adding it.
 
 ## Important limitations
 
